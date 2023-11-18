@@ -1,14 +1,11 @@
-import express from 'express';
-import helmet from 'helmet';
-
+import { makeApp } from './server.js';
 
 const main = async () => {
-	const app = express();
-	app.use(helmet());
-
+	const app = await makeApp();
 	app.listen(process.env.APP_PORT, () => {
-		console.log(`Server is running on port ${process.env.APP_PORT}`);
+		console.log(`Server listening on port ${process.env.APP_PORT}`);
 	});
 };
 
 main();
+
