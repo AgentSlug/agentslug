@@ -1,0 +1,9 @@
+{
+  "name": "@agentslug/agentslug",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server/index.js",
+  "repository": "git@github.com:AgentSlug/agentslug.git",
+  "author": "Szymon Nowicki <sznowicki@eskalacja.com>",
+  "license": "MIT"
+}
