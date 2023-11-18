@@ -1,0 +1,11 @@
+version: "3"
+services:
+  as-server:
+    command: "yarn dev"
+    build:
+      context: .
+    volumes:
+      - .:/app
+    environment:
+      - APP_PORT
+
