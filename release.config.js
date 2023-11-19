@@ -1,7 +1,7 @@
 export default {
 	branches: [
 		{
-			name: 'main',
+			name: 'next',
 			channel: 'next'
 		},
 		{
