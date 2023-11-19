@@ -2,6 +2,7 @@
   "name": "@agentslug/agentslug",
   "version": "1.0.0",
   "type": "module",
+  "private": true,
   "main": "server/server.js",
   "repository": "git@github.com:AgentSlug/agentslug.git",
   "license": "Apache-2.0",
