@@ -4,8 +4,7 @@
   "type": "module",
   "main": "server/server.js",
   "repository": "git@github.com:AgentSlug/agentslug.git",
-  "author": "Szymon Nowicki <sznowicki@eskalacja.com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
     "start": "node server/server.js",
     "dev": "node --watch server/server.js",
